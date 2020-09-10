@@ -283,7 +283,9 @@ export default compose( [
 		};
 	} ),
 	withDispatch( ( dispatch ) => {
-		const { editPost, resetEditorBlocks, createInfoNotice } = dispatch( 'core/editor' );
+		const { editPost, resetEditorBlocks, createInfoNotice } = dispatch(
+			'core/editor'
+		);
 		const {
 			updateSettings,
 			clearSelectedBlock,
